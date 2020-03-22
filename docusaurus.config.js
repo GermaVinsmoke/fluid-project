@@ -15,7 +15,7 @@ module.exports = {
 			},
 			links: [
 				{
-					to: 'docs/doc1',
+					to: 'docs/wc-1',
 					label: 'Docs',
 					position: 'left',
 				},
