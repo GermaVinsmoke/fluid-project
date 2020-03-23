@@ -5,32 +5,47 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+	padding: 4rem 0;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	clip-path: polygon(0 0, 100% 0, 100% calc(100% - 6vw), 0 100%);
+	height: 60vh;
+}
+
+@font-face {
+	font-family: fluid-community;
+	src: url(https://fluidproject.org/fonts/fluid-community.ttf);
 }
 
 @media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+	.heroBanner {
+		padding: 2rem;
+	}
 }
 
 .buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 2rem 0;
+	width: 100%;
 }
 
 .featureImage {
-  height: 200px;
-  width: 200px;
+	height: 200px;
+	width: 200px;
+}
+
+.getStarted {
+	color: white !important;
+}
+
+.getStarted:hover {
+	color: black !important;
 }

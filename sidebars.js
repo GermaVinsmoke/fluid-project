@@ -1,6 +1,10 @@
 module.exports = {
-  someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
-  },
+	someSidebar: {
+		'Writing Configuration': ['wc-1', 'wc-2'],
+		API: ['api-1', 'api-2'],
+		Docusaurus: ['doc1', 'doc2'],
+	},
+	someOtherSidebar: {
+		Test: ['mdx'],
+	},
 };
