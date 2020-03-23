@@ -19,19 +19,19 @@ To help understand how a widget or application might be designed using component
 
 ### Progress
 
-<img alt="Progress-example" src={useBaseUrl('img/progress-example.png')} />
+<img alt="Progress-example" src={useBaseUrl('img/wc-1/progress-example.png')} />
 
 The Infusion Progress component is a single [view component](#) with no [subcomponents](#). It has a number of UI elements that work together and are updated programmatically to show the progress of some activity. It has a pretty simple purpose and function, one that doesn't make much sense to try to chunk up into multiple components.
 
 ### Inline Edit
 
-<img alt="Inline edit" src={useBaseUrl('img/viewMode.png')} />
+<img alt="Inline edit" src={useBaseUrl('img/wc-1/viewMode.png')} />
 
 The Inline Edit component allows the user to edit text in place, without switching to a new screen, by simply switching into an in-place edit mode. The view mode is implemented one way, with certain functionality (i.e. a tooltip, an affordance to edit), and the edit mode is implemented differently: it's an edit field. Conceptually, these two modes are rather different, and so they're implemented as two separate subcomponents of the main Inline Edit component.
 
 ### Uploader
 
-<img alt="Uploader" src={useBaseUrl('img/uploader.png')} />
+<img alt="Uploader" src={useBaseUrl('img/wc-1/uploader.png')} />
 
 The Uploader allows users to add several files to a queue and then upload them all at once. It is actually made up of several [subcomponents](#): It has the file queue view, which displays the files currently in the queue; it has a total progress bar at the bottom. In turn, the file queue view component has its own subcomponents.
 
