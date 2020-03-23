@@ -2,7 +2,7 @@
 id: wc-2
 title: Understanding Component Options And Their Defaults
 sidebar_label: Understanding Component Options And Their Defaults
-custom_edit_url: https://github.com/GermaVinsmoke/fluid-project/tree/dev0.1/docs/wc-2.md
+custom_edit_url: https://github.com/GermaVinsmoke/fluid-project/tree/master/docs/wc-2.md
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
