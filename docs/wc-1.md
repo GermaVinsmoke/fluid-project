@@ -2,7 +2,7 @@
 id: wc-1
 title: Understanding Infusion Components
 sidebar_label: Understanding Infusion Components
-custom_edit_url: https://github.com/GermaVinsmoke/fluid-project/tree/dev0.1/docs/wc-1.md
+custom_edit_url: https://github.com/GermaVinsmoke/fluid-project/tree/master/docs/wc-1.md
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
