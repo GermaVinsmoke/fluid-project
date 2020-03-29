@@ -8,7 +8,9 @@ install:
 
 script:
   - npm run check:markdown
-  - npm run build
+
+after_success:
+	- npm run build
 
 deploy:
   provider: script
