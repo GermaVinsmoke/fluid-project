@@ -9,7 +9,7 @@
 		"deploy": "docusaurus deploy",
 		"doc-v1.5": "docusaurus docs:version 1.5",
 		"doc-v2.0": "docusaurus docs:version 2.0",
-		"check:markdown": "find . -type f -name '*.md' ! -path './node_modules/*' | xargs -L1 npx markdown-link-check",
+		"check:markdown": "find . -type f -name '*.md' ! -path './node_modules/*' | xargs -L1 npx markdown-link-check --quiet",
 		"zeit-deploy": "now --confirm --token=$NOW_TOKEN"
 	},
 	"dependencies": {
