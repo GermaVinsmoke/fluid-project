@@ -26,7 +26,7 @@ module.exports = {
 			links: [
 				{
 					to: 'versions',
-					label: `${versions[0]}`,
+					label: `Infusion ${versions[0]}`,
 					position: 'left',
 					style: {
 						whiteSpace: 'nowrap',
