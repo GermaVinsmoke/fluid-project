@@ -1,11 +1,13 @@
+const versions = require('./versions.json');
+
 module.exports = {
 	title: 'Fluid',
 	tagline: 'Open Source, Collaborative Project',
 	url: 'https://your-docusaurus-test-site.com',
 	baseUrl: '/',
 	favicon: 'img/fluid-logo-black.svg',
-	organizationName: 'fluid', // Usually your GitHub org/user name.
-	projectName: 'fluidproject', // Usually your repo name.
+	organizationName: 'GermaVinsmoke', // Usually your GitHub org/user name.
+	projectName: 'fluid-project', // Usually your repo name.
 	customFields: {
 		description:
 			'Fluid is an open, collaborative project to improve the user experience and inclusiveness of open source software.',
@@ -22,6 +24,17 @@ module.exports = {
 				src: 'img/fluid-logo-white.svg',
 			},
 			links: [
+				{
+					to: 'versions',
+					label: `${versions[0]}`,
+					position: 'left',
+					style: {
+						whiteSpace: 'nowrap',
+						padding: '0.25rem 0.5rem 0.2rem 0.25rem',
+						fontSize: 'calc(0.9 * var(--ifm-font-size-base))',
+						textDecoration: 'underline',
+					},
+				},
 				{
 					to: 'docs/wc-1',
 					label: 'Docs',
