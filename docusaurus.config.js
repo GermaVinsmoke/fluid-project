@@ -40,11 +40,6 @@ module.exports = {
 					label: 'Docs',
 					position: 'left',
 				},
-				{
-					to: 'docs/mdx',
-					label: 'API',
-					position: 'left',
-				},
 				{ to: 'blog', label: 'Blog', position: 'left' },
 				{
 					href: 'https://github.com/facebook/docusaurus',

@@ -4,7 +4,4 @@ module.exports = {
 		API: ['api-1', 'api-2'],
 		Docusaurus: ['doc1', 'doc2'],
 	},
-	someOtherSidebar: {
-		Test: ['mdx'],
-	},
 };
