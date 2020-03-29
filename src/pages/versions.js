@@ -29,9 +29,7 @@ function Version() {
 							<tr>
 								<th>{latestVersion}</th>
 								<td>
-									<Link to={useBaseUrl('/docs/introduction')}>
-										Documentation
-									</Link>
+									<Link to={useBaseUrl('/docs/wc-1')}>Documentation</Link>
 								</td>
 								<td>
 									<a href={`${repoUrl}/releases/tag/v${latestVersion}`}>
@@ -50,9 +48,7 @@ function Version() {
 							<tr>
 								<th>master</th>
 								<td>
-									<Link to={useBaseUrl('/docs/next/introduction')}>
-										Documentation
-									</Link>
+									<Link to={useBaseUrl('/docs/next/wc-1')}>Documentation</Link>
 								</td>
 								<td>
 									<a href={repoUrl}>Source Code</a>
@@ -74,7 +70,7 @@ function Version() {
 									<tr key={version}>
 										<th>{version}</th>
 										<td>
-											<Link to={useBaseUrl(`/docs/${version}/introduction`)}>
+											<Link to={useBaseUrl(`/docs/${version}/wc-1`)}>
 												Documentation
 											</Link>
 										</td>
