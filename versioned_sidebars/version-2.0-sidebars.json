@@ -1,0 +1,58 @@
+{
+  "version-2.0/someSidebar": [
+    {
+      "type": "category",
+      "label": "Writing Configuration",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-2.0/wc-1"
+        },
+        {
+          "type": "doc",
+          "id": "version-2.0/wc-2"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "API",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-2.0/api-1"
+        },
+        {
+          "type": "doc",
+          "id": "version-2.0/api-2"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Docusaurus",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-2.0/doc1"
+        },
+        {
+          "type": "doc",
+          "id": "version-2.0/doc2"
+        }
+      ]
+    }
+  ],
+  "version-2.0/someOtherSidebar": [
+    {
+      "type": "category",
+      "label": "Test",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-2.0/mdx"
+        }
+      ]
+    }
+  ]
+}
