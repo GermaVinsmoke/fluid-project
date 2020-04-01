@@ -8,7 +8,9 @@
 		"swizzle": "docusaurus swizzle",
 		"deploy": "docusaurus deploy",
 		"doc-v1.5": "docusaurus docs:version 1.5",
-		"doc-v2.0": "docusaurus docs:version 2.0"
+		"doc-v2.0": "docusaurus docs:version 2.0",
+		"check:markdown": "find . -type f -name '*.md' ! -path './node_modules/*' | xargs -L1 npx markdown-link-check --quiet",
+		"zeit-deploy": "now --confirm --token=$NOW_TOKEN"
 	},
 	"dependencies": {
 		"@docusaurus/core": "^2.0.0-alpha.48",
@@ -28,5 +30,9 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"devDependencies": {
+		"markdown-link-check": "^3.8.0",
+		"now": "^17.1.1"
 	}
 }
